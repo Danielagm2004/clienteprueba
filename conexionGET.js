@@ -31,7 +31,7 @@ fetch(URL, parametros)
         
             let titulo=document.createElement("h5");
             titulo.classList.add("card-title");
-            titulo.textContent=`Producto: ${pedido.nombre}`;
+            titulo.textContent=`Producto: ${pedido.producto}`;
         
             let texto=document.createElement("p");
             texto.classList.add("card-text");
